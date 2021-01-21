@@ -16,10 +16,6 @@ sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
 open /Applications/iTerm.app
 sudo xattr -dr com.apple.quarantine /Applications/GitHub\ Desktop.app
 open /Applications/GitHub\ Desktop.app
-sudo xattr -dr com.apple.quarantine /Applications/Setapp.app
-open /Applications/Setapp.app
-sudo xattr -dr com.apple.quarantine /Applications/Alfred 4.app
-open /Applications/Alfred 4.app
 sudo xattr -dr com.apple.quarantine /Applications/Notion.app
 open /Applications/Notion.app
 sudo xattr -dr com.apple.quarantine /Applications/Dropbox.app
