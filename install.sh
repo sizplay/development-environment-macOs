@@ -45,6 +45,12 @@ chmod 755 ./zsh/install.sh
 chmod 755 ./vscode/install.sh
 ./vscode/install.sh
 
+# download setapp
+open /Applications/Google\ Chrome.app https://setapp.com
+
+# download alfred
+open /Applications/Google\ Chrome.app https://www.alfredapp.com
+
 # copy iterm2 configuration
 chmod 755 ./iterm2/install.sh
 ./iterm2/install.sh
