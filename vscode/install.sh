@@ -1,6 +1,6 @@
 # !/bin/bash
 
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 
 sudo xattr -dr com.apple.quarantine /Applications/Visual\ Studio\ Code.app
 
