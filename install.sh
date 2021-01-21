@@ -54,31 +54,31 @@ chmod 755 ./react-native/install.sh
 ./react-native/install.sh
 
 # install python3
-chmod 755 ./python/install.sh
-./python/install.sh
+# chmod 755 ./python/install.sh
+# ./python/install.sh
 
 # install xcode
 chmod 755 ./xcode/install.sh
 ./xcode/install.sh
 
 # download docker desktop
-open /Applications/Google\ Chrome.app https://www.docker.com/products/docker-desktop
+# open /Applications/Google\ Chrome.app https://www.docker.com/products/docker-desktop
 
 # install fastlane
-sudo gem install fastlane -NV
+# sudo gem install fastlane -NV
 
 # configure redis
-chmod 755 ./redis/install.sh
-./redis/install.sh
+# chmod 755 ./redis/install.sh
+# ./redis/install.sh
 
 # Laravel
-chmod 755 ./laravel/install.sh
-./laravel/install.sh
+# chmod 755 ./laravel/install.sh
+# ./laravel/install.sh
 
 # BitBar Github Contribution Plugin
-chmod 755 ./bitbar/install.sh
-./bitbar/install.sh
+# chmod 755 ./bitbar/install.sh
+# ./bitbar/install.sh
 
 # Set screenshot folder
-chmod 755 ./screenshot/install.sh
-./screenshot/install.sh
+# chmod 755 ./screenshot/install.sh
+# ./screenshot/install.sh
