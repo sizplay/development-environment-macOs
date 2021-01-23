@@ -8,3 +8,9 @@ cp ./zsh/.zshrc ~/.zshrc
 
 # install zsh theme
 git clone https://github.com/romkatv/powerlevel10k.git /Users/$USER/.oh-my-zsh/themes/powerlevel10k
+
+# Pure prompt 설치
+mkdir -p "$HOME/.zsh"
+git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
+echo "\nfpath+=$HOME/.zsh/pure\nautoload -U promptinit; promptinit\nprompt pure" >> "$HOME/.zshrc"
+exec $SHELL
