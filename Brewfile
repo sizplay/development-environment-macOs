@@ -54,3 +54,4 @@ cask 'dropbox'
 # Movist Pro
 # BetterTouchTool
 # secrets
+# sizzy
