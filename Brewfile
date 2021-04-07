@@ -33,7 +33,7 @@ cask 'github'
 cask 'notion'
 cask 'zeplin'
 cask 'dropbox'
-
+cask 'keycastr'
 # setapp
 # Step Two
 # Bartender
