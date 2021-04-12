@@ -8,6 +8,9 @@
 sh install.sh
 ```
 
+## 따로 설치 해야하는 목록
+- Alfred 4
+
 ## 설치되는 개발 환경
 
 - iterm 2
