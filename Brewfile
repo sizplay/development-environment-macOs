@@ -34,6 +34,7 @@ cask 'notion'
 cask 'zeplin'
 cask 'dropbox'
 cask 'keycastr'
+cask 'maccy'
 # setapp
 # Step Two
 # Bartender
