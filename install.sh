@@ -3,6 +3,10 @@
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+# add homebrew to your PATH
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/chaehoonlim/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # install via brew
 brew bundle --file=./Brewfile
 
