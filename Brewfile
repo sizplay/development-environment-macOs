@@ -17,14 +17,14 @@ mas 'Magnet', id: 441258766
 # mas 'Quiver', id: 866773894
 # mas 'Things3', id: 904280696
 mas 'JustFocus', id: 1142151959
-mas 'Leaf', id: 576338668
-mas 'Amphetamine', id: 937984704
+# mas 'Leaf', id: 576338668
+# mas 'Amphetamine', id: 937984704
 
-# tap 'adoptopenjdk/openjdk'
-# cask 'adoptopenjdk8'
+tap 'adoptopenjdk/openjdk'
+cask 'adoptopenjdk8'
 # cask 'android-studio'
 # cask 'postman'
-cask 'google-chrome'
+# cask 'google-chrome'
 cask 'iterm2'
 # cask 'github'
 # cask 'setapp'
