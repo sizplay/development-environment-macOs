@@ -14,8 +14,8 @@ brew bundle --file=./Brewfile
 # open /Applications/Zeplin.app
 # sudo xattr -dr com.apple.quarantine /Applications/Postman.app
 # open /Applications/Postman.app
-sudo xattr -dr com.apple.quarantine /Applications/Google\ Chrome.app
-open /Applications/Google\ Chrome.app
+# sudo xattr -dr com.apple.quarantine /Applications/Google\ Chrome.app
+# open /Applications/Google\ Chrome.app
 sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
 open /Applications/iTerm.app
 # sudo xattr -dr com.apple.quarantine /Applications/GitHub\ Desktop.app
@@ -31,8 +31,8 @@ open /Applications/Magnet.app
 # open /Applications/Quiver.app
 # open /Applications/Things3.app
 open /Applications/JustFocus.app
-open /Applications/Leaf.app
-open /Applications/Amphetamine.app
+# open /Applications/Leaf.app
+# open /Applications/Amphetamine.app
 
 # install font
 cp -a ./fonts/. ~/Library/Fonts
@@ -46,11 +46,11 @@ chmod 755 ./node/install.sh
 # ./zsh/install.sh
 
 # configure VSCode
-# chmod 755 ./vscode/install.sh
-# ./vscode/install.sh
+chmod 755 ./vscode/install.sh
+./vscode/install.sh
 
 # download setapp
-open /Applications/Google\ Chrome.app https://setapp.com
+# open /Applications/Google\ Chrome.app https://setapp.com
 
 # download alfred
 open /Applications/Google\ Chrome.app https://www.alfredapp.com
