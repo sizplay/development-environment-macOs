@@ -1,6 +1,5 @@
 {
-  "sync.autoDownload": true,
-  "todo-tree.tree.showScanModeButton": false,
+  "sync.autoDownload": false,
   "debug.console.fontFamily": "D2Coding ligature",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.fontFamily": "D2Coding ligature, Menlo, Monaco, 'Courier New', monospace",
@@ -10,14 +9,9 @@
   "editor.formatOnSave": true,
   "editor.largeFileOptimizations": false,
   "editor.minimap.size": "fit",
-  "editor.renameOnType": true,
   "editor.renderControlCharacters": false,
-  "editor.renderIndentGuides": false,
   "editor.renderWhitespace": "boundary",
-  "editor.rulers": [
-    80,
-    100
-  ],
+  "editor.rulers": [80, 100],
   "editor.snippetSuggestions": "top",
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -25,7 +19,6 @@
   "editor.wordWrap": "on",
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
-  "eslint.alwaysShowStatus": true,
   "eslint.run": "onSave",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -34,25 +27,23 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "gitlens.views.repositories.files.layout": "list",
+  "git.mergeEditor": false,
   "javascript.autoClosingTags": true,
   "javascript.format.enable": false,
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.jsxBracketSameLine": true,
-  "prettier.packageManager": "yarn",
   "rest-client.fontSize": 16,
-  "sync.autoUpload": true,
-  "sync.forceUpload": true,
-  "sync.gist": "182334e8bd0e9d25d39e2f9cf89daf53",
-  "terminal.integrated.fontFamily": "monospace",
-  "terminal.integrated.rendererType": "dom",
+  "sync.autoUpload": false,
+  "sync.forceUpload": false,
+  "sync.gist": "5d0bc93f451b62c9fc3a2ee4844711e7",
+  "terminal.integrated.fontFamily": "D2Coding ligature, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 17,
   "typescript.format.enable": false,
   "typescript.suggest.autoImports": true,
   "typescript.tsserver.log": "verbose",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.title": "${activeEditorMedium}${separator}${rootName}",
-  "window.zoomLevel": 1,
-  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "emmet.syntaxProfiles": {
@@ -106,5 +97,39 @@
         }
       ]
     }
-  }
+  },
+  "editor.guides.indentation": false,
+  "git.ignoreRebaseWarning": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "window.zoomLevel": 1,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "totalTypeScript.hiddenTips": [
+    "as-assertion",
+    "array-type",
+    "basic-types",
+    "interface-declaration",
+    "typing-function-parameters",
+    "undefined-keyword",
+    "union-type",
+    "function-return-type",
+    "optional-object-property",
+    "ts-object-type",
+    "passing-generics-to-types",
+    "variable-type-annotation",
+    "tuple-type",
+    "null-keyword",
+    "interface-with-generics",
+    "generic-slots-in-functions",
+    "any-type",
+    "keyof",
+    "typeof"
+  ]
 }
