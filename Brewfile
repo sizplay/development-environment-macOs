@@ -6,7 +6,7 @@ brew 'python3'
 brew 'nvm'
 brew "yarn"
 brew 'watchman'
-bwer 'asdf'
+brew 'asdf'
 # zsh is default in MacOS Catalina
 # brew "zsh"
 # brew 'gh'
