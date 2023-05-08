@@ -20,19 +20,19 @@ sudo xattr -dr com.apple.quarantine /Applications/iTerm.app
 open /Applications/iTerm.app
 # sudo xattr -dr com.apple.quarantine /Applications/GitHub\ Desktop.app
 # open /Applications/GitHub\ Desktop.app
-sudo xattr -dr com.apple.quarantine /Applications/Notion.app
-open /Applications/Notion.app
-sudo xattr -dr com.apple.quarantine /Applications/Dropbox.app
-open /Applications/Dropbox.app
+# sudo xattr -dr com.apple.quarantine /Applications/Notion.app
+# open /Applications/Notion.app
+# sudo xattr -dr com.apple.quarantine /Applications/Dropbox.app
+# open /Applications/Dropbox.app
 
-open /Applications/Slack.app
+# open /Applications/Slack.app
 open /Applications/KakaoTalk.app
-open /Applications/Magnet.app
+# open /Applications/Magnet.app
 # open /Applications/Quiver.app
 # open /Applications/Things3.app
 open /Applications/JustFocus.app
 # open /Applications/Leaf.app
-# open /Applications/Amphetamine.app
+open /Applications/Amphetamine.app
 
 # install font
 cp -a ./fonts/. ~/Library/Fonts
@@ -46,18 +46,18 @@ chmod 755 ./node/install.sh
 # ./zsh/install.sh
 
 # configure VSCode
-chmod 755 ./vscode/install.sh
-./vscode/install.sh
+# chmod 755 ./vscode/install.sh
+# ./vscode/install.sh
 
 # download setapp
 # open /Applications/Google\ Chrome.app https://setapp.com
 
 # download alfred
-open /Applications/Google\ Chrome.app https://www.alfredapp.com
+# open /Applications/Google\ Chrome.app https://www.alfredapp.com
 
 # copy iterm2 configuration
-chmod 755 ./iterm2/install.sh
-./iterm2/install.sh
+# chmod 755 ./iterm2/install.sh
+# ./iterm2/install.sh
 
 # install react-native
 # chmod 755 ./react-native/install.sh
